@@ -1,0 +1,42 @@
+ /* 1st Div */
+.cont{
+    display:flex;
+
+    padding: 60px;
+    background-color: rgb(248, 249, 249);
+    font-size: large;
+    justify-content: center;
+}
+select{
+    font-family: cursive;
+    border:None;
+    
+}
+button{
+    border-radius: 3px;
+    border: none;
+    padding: 3px;
+    background-color: chartreuse;
+}
+h6{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+p{
+    font-size: larger;
+    text-align: center;
+    font-family:sans-serif;
+}
+#lb{
+    font-family:monospace;
+    border-radius: 45px;
+    padding: 20px;
+    background-color: white;
+    border-style:groove;
+    border-color: black;
+}
+/* 2nd div */
