@@ -1,0 +1,281 @@
+/* 1st Div */
+.cont {
+  display: flex;
+
+  padding: 60px;
+  background-color: rgb(248, 249, 249);
+  font-size: large;
+  justify-content: center;
+}
+select {
+  font-family: cursive;
+  border: None;
+}
+button {
+  border-radius: 3px;
+  border: none;
+  padding: 3px;
+  background-color: rgb(19, 120, 243);
+}
+h6 {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-size: larger;
+  text-align: center;
+  font-family: sans-serif;
+}
+#lb {
+  font-family: monospace;
+  border-radius: 45px;
+  padding: 20px;
+  background-color: white;
+  border-style: groove;
+  border-color: black;
+}
+#textbold {
+  color: rgb(72, 72, 244);
+}
+/* 2nd div */
+.cont2 {
+  display: flex;
+  padding: 5px;
+  background-color: rgb(51, 51, 245);
+  font-size: large;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+p {
+  font-size: xx-large;
+  justify-content: center;
+}
+span {
+  color: yellow;
+  shape-rendering: crispEdges;
+}
+#pic {
+  border-radius:10px;
+  width: 50px;
+  height: 50px;
+}
+#self {
+  font-size: xx-small;
+}
+/* 3rd div */
+.cont3 {
+  display: flex;
+  padding: 10px;
+  background-color: rgb(242, 242, 248);
+  font-size: large;
+  justify-content: center;
+  color: rgb(10, 0, 0);
+  text-align: left;
+}
+#pic2 {
+  padding: auto;
+  padding-right: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pg {
+  text-align: left;
+  padding-left: 20px;
+}
+#hade {
+  font-family: monospace;
+  font-size: small;
+}
+#font {
+  font-size: medium;
+}
+/* 4th div */
+.cont4 {
+  /* position: absolute; */
+  display:flow-root;
+  padding: 10px;
+  background-color: rgb(242, 242, 248);
+  font-size: large;
+  justify-content: center;
+  color: rgb(10, 0, 0);
+}
+
+#pic3 {
+  float: right;
+  height: 9cm;
+  width: 9cm;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pg2 {
+  text-align: left;
+  padding-left:100px;
+}
+/* 5th div*/
+.cont5{
+  display: flex;
+  padding: 10px;
+  background-color: rgb(242, 242, 248);
+  font-size: large;
+  justify-content: center;
+  color: rgb(10, 0, 0);
+  text-align: left;
+}
+#pic4{
+  padding: auto;
+  padding-right: auto;
+  background-color: white;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#pg3{
+  padding-left: 20px;
+  text-align: left;
+  text-wrap:wrap;
+}
+/* 6th div*/
+.cont6{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(60, 60, 238);
+  color: white;
+  justify-content: center;
+}
+#heading{
+  padding-top: 10px;
+  font-family:Verdana,Tahoma, sans-serif;
+  font-size:xx-large;
+}
+#pg4{
+  text-align: center;
+  font-size: medium;
+  font-family: cursive;
+}
+#InstallTheme{
+  margin-bottom: 1cm;
+  font-family: monospace;
+  border-radius: 45px;
+  padding: 20px;
+  background-color: white;
+  border-style: groove;
+  border-color: black;
+  box-shadow: 2500px;
+}
+/* 7th div */
+.cont7{
+  padding: 20px;
+  justify-content: center;
+  background-color: white;
+  padding: auto;
+}
+#heading2{
+  font-size: large;
+}
+.grid-container {
+  display:grid;
+  grid-template-columns:200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  padding: 10px;
+  justify-content: center;
+  gap:67px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+#text{
+  padding-top: 5px;
+  font-family:cursive;
+  text-decoration:solid;
+  font-size:small;
+}
+/* 8th div*/
+.cont8{
+  padding: 20px;
+  justify-content: center;
+  background-color: white;
+  padding: auto;
+}
+.heading3{
+  font-size: larger;
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+  gap:200px;
+  text-decoration: underline;
+}
+/*image setup*/
+.responsive {
+  display:grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  gap:50px;
+  padding:6px;
+  border: black;
+  justify-content: center;
+}
+.gallery{
+  border:1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+/* 9th div*/
+.cont9{
+  display: flex;
+  padding:20px;
+  background-color: rgb(242, 242, 248);
+  font-size: large;
+  justify-content: center;
+  color: rgb(10, 0, 0);
+  text-align: left;
+}
+#pic5{
+  margin-top: 2cm;
+  float:left;
+  width:400px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#checkbox{
+  float: right;
+  padding-right: 180px;
+  margin-bottom: 1cm;
+}
